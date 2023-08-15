@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="card-actions bg-red-300 p-[20px] max-w-screen-xl mx-auto">
+
+        <button id="btn-goto-blog" class="btn btn-primary w-[100px]">Back</button>
+
+    </div>
+
+    <div class="max-w-screen-xl mx-auto">
+        <div class="bg-orange-500 text-[40px] my-[50px]">
+            How to select DOM element?
+        </div>
+
+        <p class="font-bold text-[25px]">querySelector</p>
+        <p>
+            const element = document.querySelector('.yourClassName');
+            <br>
+            const element = document.querySelector('#yourIdName');
+        </p>
+    </div>
+
+
+    <script>
+        document.getElementById('btn-goto-blog').addEventListener('click', function () {
+            window.location.href = 'blog.html';
+        })
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,5 +1,12 @@
 console.log("Calculate.js");
 
+
+// blog
+document.getElementById('btn-blog').addEventListener('click',function(){
+    console.log("blog btn");
+    window.location.href = 'blog.html';
+})
+
 // Triangle
 // Area (A) = 0.5 X b X h
 document.getElementById('btn-triangle').addEventListener('click', function () {
